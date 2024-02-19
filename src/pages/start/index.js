@@ -1,8 +1,11 @@
+import Banner from "../../components/Banner";
+
 const Start = () => {
   return (
-    <div>
+    <main>
+      <Banner />
       <h1>Olá mundo</h1>
-    </div>
+    </main>
   );
 };
 export default Start;
